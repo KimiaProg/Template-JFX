@@ -5,7 +5,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.viewsandcontrollers.main.Controller">
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.viewsandcontrollers.main.ControllerMain">
     <children>
         <Button fx:id="button" layoutX="95.0" layoutY="122.0" onAction="#handleButtonAction" text="To see the fruit" />
         <Label fx:id="label" layoutX="43.0" layoutY="40.0" minHeight="16" minWidth="42.0" prefHeight="26.0" prefWidth="42.0" text="Fruit" />
