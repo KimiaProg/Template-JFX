@@ -13,10 +13,6 @@ public class ControllerSecond {
 	}
 
 	@FXML
-	Stage stage;
-	
-
-	@FXML
 	private void cerrarVentana(ActionEvent event) throws IOException {
 		Node source = (Node) event.getSource();
 	    Stage stage = (Stage) source.getScene().getWindow();
