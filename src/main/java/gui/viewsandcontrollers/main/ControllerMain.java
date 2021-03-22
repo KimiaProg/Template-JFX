@@ -9,14 +9,11 @@ import javafx.scene.Scene;
 import javafx.scene.control.TextField;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import javafx.stage.Window;
 public class ControllerMain {
 	
 	@FXML
 	private TextField text;
 	
-	@FXML
-	private Window root;
     public void initialize() {
         // TODO
     }
